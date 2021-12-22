@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;900&family=Lobster&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: lobster;
+    font-size: 4rem;
+    letter-spacing: .5rem;
+}
+
+body {
+    line-height: 1.5;
+    font-family: lato;
+    background-color: antiquewhite;
+}
+
+.wrapper {
+    border: 1px solid rgba(0, 0, 0, 0.027);
+    width: 1000px;
+    margin: 0 auto;
+    background-color: #F2FFE9;
+    
+}
+
+.top-header {
+    background-color: #2E4C6D;
+    color: white;
+    text-align: center;
+
+    padding: 50px 0;
+}
+
+.hero {
+    margin-top: -50px;
+    height: auto;
+    padding: 50px;   
+    background-color: black;
+    background-image: url("https://cdn.pixabay.com/photo/2015/06/24/13/32/camera-820018_960_720.jpg");
+    background-size: cover;
+    background-repeat: no-repeat, repeat;  
+}
+
+
+  .right-align {
+    background-color: rgba(5, 5, 5, 0.103);
+    width: 45%;
+    display: block;
+    position: relative;
+    color: white;
+}
+
+.author {
+    color: white;
+    padding-top: 40px;
+    font-weight: 700;
+}
+
+.top-section {
+    padding: 50px;
+}
+
+h2 {
+    font-weight: 100;
+    font-family: lobster;
+    font-style: italic;
+}
+
+.cta {
+    font-family: lobster;
+    letter-spacing: .1rem;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    text-decoration: underline;
+    
+}
+
+.list-section {
+    background-color: #396EB0;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    padding: 20px;
+    margin: auto;
+}
+
+.list-one {
+    margin: 40px 0;
+    background-color: #fee3ec21;
+    color: white;
+    border-radius: 5px;
+    padding: 30px;
+    width: 40%;
+    font-weight: 600;
+}
+
+.list-one li {
+    padding-left: 30px;
+    list-style-type: none;
+    margin: 8px 0;
+}
+
+
+.list-two {
+    margin: 40px 0;
+    background-color: #fee3ec21;
+    color: white;
+    border-radius: 5px;
+    padding: 30px;
+    width: 40%;
+    font-weight: 600;
+}
+
+.list-two li {
+    padding-left: 30px;
+    list-style-type: none;
+    margin: 8px 0;
+}
+
+.icon {
+    padding-right: 8px;
+}
+
+section.bottom {
+    padding-top: 50px;
+}
+
+footer {
+    background-color: #2E4C6D;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    padding: 20px;
+    letter-spacing: .8px;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: #49729e;
+}
+
+a:active {
+    color: #2E4C6D;
+}
